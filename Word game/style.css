@@ -1,0 +1,145 @@
+@font-face {
+    font-family:'vazir' ;
+    src: url(font/Vazir-Thin.eot) format('eot');
+    src: url(font/Vazir-Thin.ttf) format('ttf');
+    src: url(font/Vazir-Thin.woff) format('woff');
+    src: url(font/Vazir-Thin.woff2) format('woff2');
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    border: none;
+    background-color: rgb(177, 168, 168);
+    border-radius: 2px;
+}
+
+input:focus{
+    outline: none;
+
+}
+
+
+button#b1,button#b2{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 350px;
+    background-color: rgb(21, 129, 172);
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+
+button#b1:hover,button#b2:hover{
+    cursor: pointer;
+}
+
+button#b2{
+    right: 140px;
+    width: 200px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+#inputs,#hoshdar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+    width: 120px;
+}
+
+#hoshdar{
+    width: 300px;
+}
+
+#inputs p {
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(146, 204, 219);
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.radio_button{
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    right: 140px;
+    width: 200px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.active{
+    opacity: 1;
+    margin-top: 20;
+}
+
+.radio_button input{
+    width: 20px;
+    height: 25px;
+}
+
+.alert{
+    width: 350px;
+    height: 280px;
+    border: none;
+    position: absolute;
+    top: 30%;
+    right: 38%;
+    opacity: 0;
+    transition: all .3s;
+    background-color: rgb(20, 202, 96);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 7px;
+    font-family: 'vazir';
+}
+
+.active2{
+    opacity: 1;
+    top: 36%;
+}
+
+.alert img{
+    width: 80px ;
+    height: 80px;
+}
+
+.alert button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'vazir';
+    color: #fff;
+    background-color: black;
+}
+
+.alert button:hover{
+    cursor: pointer;
+}
+
+
